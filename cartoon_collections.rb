@@ -23,23 +23,3 @@ def find_the_cheese(array)
     cheese_types.include?(possibly_cheese)
   end
 end
-
-# find_the_cheese(array)
-
-
-#   if array.include?(cheese_types)
-#     return array.find(cheese_types)
-#   else
-#     nil
-#   end
-# end
-
-# def find_the_cheese(potentially_cheesy_items)
-#   cheeses = %w[gouda cheddar camembert]
-#
-#   potentially_cheesy_items.find do |maybe_cheese|
-#     cheeses.include?(maybe_cheese)
-#   end
-# end
-#
-# find_the_cheese(potentially_cheesy_items)
